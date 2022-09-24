@@ -29,4 +29,4 @@ window.onload = function () {
 	window.onresize = handleResize;
 
 	handleResize();
-}
+};
