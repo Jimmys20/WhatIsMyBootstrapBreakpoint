@@ -7,22 +7,22 @@ window.onload = function () {
 
 		if (width >= 1400) {
 			header.innerHTML = 'Extra extra large (xxl)';
-			header.style.backgroundColor = colors[5];
+			document.body.style.backgroundColor = colors[5];
 		} else if (width >= 1200) {
 			header.innerHTML = 'Extra large (xl)';
-			header.style.backgroundColor = colors[4];
+			document.body.style.backgroundColor = colors[4];
 		} else if (width >= 992) {
 			header.innerHTML = 'Large (lg)';
-			header.style.backgroundColor = colors[3];
+			document.body.style.backgroundColor = colors[3];
 		} else if (width >= 768) {
 			header.innerHTML = 'Medium (md)';
-			header.style.backgroundColor = colors[2];
+			document.body.style.backgroundColor = colors[2];
 		} else if (width >= 576) {
 			header.innerHTML = 'Small (sm)';
-			header.style.backgroundColor = colors[1];
+			document.body.style.backgroundColor = colors[1];
 		} else {
 			header.innerHTML = 'Extra small (None)';
-			header.style.backgroundColor = colors[0];
+			document.body.style.backgroundColor = colors[0];
 		}
 	}
 
